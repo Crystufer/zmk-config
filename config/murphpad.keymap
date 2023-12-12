@@ -12,8 +12,8 @@
 
 #define TIMEOUT 300
 #define DEFAULT 0
-#define fn      1
-#define shift   2
+#define FUN      1
+#define SHIT   2
 
 &encoder_1 {
     status = "okay";
@@ -72,8 +72,8 @@
 
         };
 
-        fn_layer {
-            display-name = "fn layer";
+        fun_layer {
+            display-name = "fun layer";
             bindings = <
                 &trans          &kp C_PREV   &kp C_PP        &kp C_NEXT        &kp TAB
                 &trans          &kp F10      &kp F11         &kp F12           &trans
@@ -86,8 +86,8 @@
 
         };
 
-        shift_layer {
-            display-name = "shift layer";
+        shit_layer {
+            display-name = "shit layer";
             bindings = <
                 &trans           &kp C_PREV   &kp C_PP        &kp C_NEXT        &kp TAB
                 &trans           &kp ESC      &kp STAR        &kp PLUS          &kp PG_UP
@@ -97,6 +97,7 @@
                 &mo 1            &kp KP_N0    &trans          &kp COMMA         &trans
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+
 
         };
     };
