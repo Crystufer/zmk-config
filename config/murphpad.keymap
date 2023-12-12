@@ -78,7 +78,7 @@
 &rgb_ug RGB_TOG  &kp F10      &kp F11        &kp F12       &trans
 &rgb_ug RGB_EFF  &kp F7       &kp F8         &kp F9        &trans
 &kp C_MUTE       &kp F4       &kp F5         &kp F6        &trans
-&mo 2            &kp F1       &kp F2         &kp F3        &ENTER
+&mo 2            &kp F1       &kp F2         &kp F3        &kp KP_ENTER
 &mo 1            &trans       &trans         &trans        &trans
             >;
 
@@ -105,8 +105,8 @@ sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
 &rgb_ug RGB_TOG  &trans  &trans  &trans  &trans
 &rgb_ug RGB_EFF  &trans  &trans  &trans  &trans
 &kp C_MUTE       &trans  &trans  &trans  &trans
-&mo 2           &trans  &trans  &trans  &trans
-&trans           &trans  &trans  &trans  &trans
+&mo 2            &trans  &trans  &trans  &trans
+&mo 1            &trans  &trans  &trans  &trans
 sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
             >;
         };
