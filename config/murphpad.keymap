@@ -11,10 +11,7 @@
 
 
 #define TIMEOUT 300
-#define DEFAULT  0
-#define FUN      1
-#define SHIT     2
-#define NONE     0
+
 
 &encoder_1 {
     status = "okay";
